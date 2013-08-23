@@ -1,0 +1,23 @@
+{
+    "name": "elcweb/menu-bundle",
+    "type": "symfony-bundle",
+    "description": "Elcweb Menu Bundle",
+    "keywords": [],
+    "homepage": "http://elcweb.ca",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Etienne Lachance",
+            "email": "el@elcweb.ca"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.3",
+    },
+    "autoload": {
+        "psr-0": { "Elcweb\\MenuBundle\\": "" }
+    },
+    "target-dir": "Elcweb/MenuBundle",
+    "minimum-stability": "dev"
+}
